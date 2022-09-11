@@ -1,4 +1,4 @@
-/**
+/*
  * File: 5-printf.c
  * Auth: Brennan D Baraban
  */
