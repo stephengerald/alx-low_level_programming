@@ -14,13 +14,7 @@
 int main(void)
 
 {
-	char w = "_putchar";
-
-	while (w)
-	{
-		_putchar(w);
-		w++;
-	}
+	_putchar("_putchar");
 
 	return (0);	
 
