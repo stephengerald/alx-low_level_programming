@@ -1,7 +1,6 @@
 /*
  * file: 0-putchar.c
  * Name: stephen okpala
- *
  */
 
 #include "main.h"
