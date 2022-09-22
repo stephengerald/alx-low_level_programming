@@ -30,7 +30,7 @@ int main(void)
 				s += c[k];
 				i++;
 
-				break
+				break;
 			}
 			k++;
 		}
