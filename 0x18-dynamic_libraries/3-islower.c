@@ -1,21 +1,22 @@
-/*
- * File: 3-islower.c
- * Name: Stephen Okpala
- */
-
 #include "main.h"
 
 /**
- * _islower - Checks if a character is lowercase.
- *
- * @c: The character to be checked.
- *
- * Return: 1 if character is lowercase, 0 otherwise.
+ * _islower - Code entry point
+ * Description: This program checks for lowercase character.
+ * @c: The integer value it recieves
+ * Return: 0
  */
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+	int i = 'a';
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		/* refer in c*/
+		if (c == i)
+		{
+			return (1);
+		}
+	}
+	return (0);
 }
